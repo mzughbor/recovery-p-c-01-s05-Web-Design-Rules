@@ -31,7 +31,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 120px;
 }
 
 h2 {
@@ -55,6 +55,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -104,6 +105,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 20px;
 }
 
 /* FEATURES */
@@ -125,6 +127,7 @@ img {
   background-color: #94d82d;
   color: #212529;
   padding: 24px;
+  border-radius: 20px;
 }
 
 .testimonial-box {
@@ -144,8 +147,8 @@ img {
   line-height: 1.7;
 }
 
-/* CHAIRS */
-.chair-box {
+/* flowers */
+.flower-box {
   padding: 24px;
 }
 
@@ -155,26 +158,27 @@ h3 {
   color: #212529;
 }
 
-.chair-details {
+.flower-details {
   list-style: none;
   margin-bottom: 24px;
 }
 
-.chair-details li {
+.flower-details li {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 24px;
 }
 
-.chair-details li:last-child {
+.flower-details li:last-child {
   margin-bottom: 0;
 }
 
-.chair-price {
+.flower-price {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  align-items: center;
 }
 
 footer {
@@ -195,4 +199,20 @@ footer {
 .flower-icon {
   width: 24px;
   height: 24px;
+}
+
+/* adding shadows */
+
+.flower {
+  box-shadow: 0px 3px 20px 5px rgba(148, 216, 45, 0.333);
+  border-radius: 20px;
+}
+
+h1 {
+  text-shadow: -10px 8px 3px rgba(148, 216, 45, 0.333);
+}
+
+.flower img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
