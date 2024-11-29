@@ -31,7 +31,7 @@ body {
 
 header,
 section {
-  margin-bottom: 120px;
+  margin-bottom: 128px;
 }
 
 h2 {
@@ -82,7 +82,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -90,7 +90,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
@@ -106,10 +106,6 @@ h1 {
 img {
   width: 100%;
   border-radius: 20px;
-}
-
-/* FEATURES */
-.features-icon {
 }
 
 .features-title {
@@ -160,14 +156,14 @@ h3 {
 
 .flower-details {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .flower-details li {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .flower-details li:last-child {
@@ -193,7 +189,7 @@ footer {
   /* stroke: #74b816; */
   width: 52px;
   height: 52px;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 .flower-icon {
@@ -215,4 +211,8 @@ h1 {
 .flower img {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.testimonial-author {
+  color: #495057;
 }
